@@ -13,7 +13,7 @@ AuthController.login = function (req, res, next) {
 AuthController.create = function (req, res, next) {
     res.render('signup')
 }
-
+ 
 AuthController.store = async function (req, res) {
     //obteniendo los datos del usuario
     let user = {
